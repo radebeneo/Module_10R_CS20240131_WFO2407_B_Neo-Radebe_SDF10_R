@@ -1,12 +1,21 @@
 <!doctype html>
 <html>
-    <head>
-        <title>Add to Cart</title>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
+<head>
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://img.freepik.com/premium-photo/cartoon-cute-cat-with-shopping-cart-feline-grocery-shopper-cat-pushing-cart-kitty-shopping_980716-36881.jpg" alt="Cat with cart" class="cat-image">
+            
+        </div>
         <input type="text" id="input-field" placeholder="Bread">
         <button id="add-button">Add to cart</button>
-        <script src="index.js"></script>
-    </body>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be added here -->
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
 </html>
